@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(
+    to right, 
+    #ffffff 0%, 
+    #ffffff 50%, 
+    #000000 50%, 
+    #000000 100%
+  );
+}
+
+#title-input{
+  position: absolute;
+  right: 55%;
+}
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10vw;
+  margin-left: 4vw;
+  margin-bottom: 0.5vw;
+  font-size: 6vw;
+  text-align: left;
+}
+
+#enter-input{
+  margin-left: 8vw;
+}
+
+#input{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#submit{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#clear{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#list{
+  font-family: 'Quicksand', sans-serif;
+  position: absolute;
+  left: 52.5%;
+  top: 2.5%;
+  bottom: 10%;
+  color: white;
+  line-height: 3vw;
+}
