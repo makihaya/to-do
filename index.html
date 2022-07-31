@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div id="container">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Roboto+Slab:wght@200&family=Slabo+13px&display=swap" rel="stylesheet">
+      
+        <div id="title-input">
+        <h1>To-Do List</h1>
+        
+        <div id="enter-input">
+          
+        <input id="input" type="text" placeholder="Enter item" value="">
+          
+         <button id="submit" onclick="toDo()">Add to List</button>
+      
+           <button id="clear" onclick="toDo()">Clear</button>
+          </div>
+        </div>
+        <div id="list-background"></div>
+        <div id="list"></div>
+      </div> 
+      
+      <link rel="stylesheet" href="css/styles.css">     
+
+<script>
+    function toDo(){
+  var listInput = document.getElementById("input").value;
+  var listOutput = document.getElementById("list");
+  var newP = document.createElement("p");
+  var newText = document.createTextNode(listInput);
+  
+  newP.appendChild(newText);
+  document.getElementById("list").appendChild(newP);
+  
+  submit.addEventListener("click", (e) => {
+    document.getElementById("input").value = "";
+  });
+  
+    newP.addEventListener("click", (e) => {
+    newP.innerHTML = newP.innerHTML.strike();
+  });
+  
+  clear.addEventListener("click", (e) => {
+    listOutput.innerHTML = "";
+  });
+
+}
+</script>
+</html>
